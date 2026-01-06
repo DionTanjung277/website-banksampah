@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+/* BACKGROUND UTAMA HALAMAN */
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(
+        135deg,
+        #d4fc79,
+        #881313,
+        #5c13a6
+    );
+    background-attachment: fixed;
+    line-height: 1.8;
+}
+
+/* HEADER – HIJAU LEBIH HIDUP */
+header {
+    background: linear-gradient(
+        135deg,
+        #1f8a70,
+        #3cb371,
+        #2e8b57
+    );
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 12px;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+    opacity: 0.95;
+}
+
+/* NAVBAR */
+nav {
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 15px;
+    text-align: center;
+    backdrop-filter: blur(6px);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffeb3b;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+/* CARD / SECTION */
+section {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+section h2 {
+    color: #1f8a70;
+    margin-bottom: 15px;
+}
+
+/* FORM */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 18px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* BUTTON */
+button {
+    background: linear-gradient(135deg, #2e8b57, #3cb371);
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #256b45, #2e8b57);
+}
+
+/* FOOTER */
+footer {
+    background: linear-gradient(
+        135deg,
+        #1f8a70,
+        #2e8b57
+    );
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 40px;
+}
